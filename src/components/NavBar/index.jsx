@@ -1,7 +1,6 @@
 // vitals
 import React from 'react';
 import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
 
 // styles
 import NavBarStyled from './styles';
@@ -24,7 +23,7 @@ function NavBar() {
           data-testid="about__element-navbar-link"
           to={ '/about' }
         >
-          Home
+          About
         </Link>
       </div>
       <div>
@@ -33,7 +32,7 @@ function NavBar() {
           data-testid="skills__element-navbar-link"
           to={ '/skills' }
         >
-          Home
+          Skills
         </Link>
       </div>
       <div>
@@ -42,15 +41,11 @@ function NavBar() {
           data-testid="projects__element-navbar-link"
           to={ '/projects' }
         >
-          Home
+          Projects
         </Link>
       </div>
     </NavBarStyled>
   );
 }
-
-NavBar.propTypes = {
-  page: PropTypes.string.isRequired,
-};
 
 export default NavBar;

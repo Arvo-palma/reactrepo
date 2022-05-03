@@ -5,7 +5,7 @@ import React from 'react';
 import Router from './routes';
 
 // styles
-// import './Global.css';
+import './Global.css';
 
 function App() {
   return <Router />;

@@ -5,23 +5,22 @@ import React from 'react';
 import NavBar from '../../components/NavBar';
 
 // syles
-import HomePageStyled from './styles';
+import ProjectsPageStyled from './styles';
 
-function Home() {
+function Projects() {
   return (
-    <HomePageStyled id="homepage">
+    <ProjectsPageStyled id="projectpage">
       <NavBar/>
       <article>
-        <h1>Hi, I'm Álvaro!</h1>
+        <h1>My life</h1>
         <p>
           Alguma coisa sobre mim, mais alguma coisas sobre mim,
           mais alguma coisas sobre mim, mais alguma coisas sobre mim, mais alguma coisas sobre mim,
           mais alguma coisas sobre mim, mais alguma coisas sobre mim, mais alguma coisas sobre mim, mais alguma coisas sobre mim, mais alguma coisas sobre mim, mais alguma coisas sobre mim, mais alguma coisas sobre mim,
         </p>
-        <aside>Uma foto minha</aside>
       </article>
-    </HomePageStyled>
+    </ProjectsPageStyled>
   )
 }   
 
-export default Home;
+export default Projects;

@@ -1,6 +1,6 @@
 // vitals
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 // pages
 import Home from '../pages/Home';
@@ -12,10 +12,11 @@ function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={ <Home/> } />
-        <Route exact path="/about" element={ <About/> } />
-        <Route exact path="/skills" element={ <Skills/> } />
-        <Route exact path="/projects" element={ <Projects/> } />
+        <Route exact path="/" element={ <Navigate to="/home" /> } />
+        <Route exact path="/home" element={ <Home /> } />
+        <Route exact path="/about" element={ <About /> } />
+        <Route exact path="/skills" element={ <Skills /> } />
+        <Route exact path="/projects" element={ <Projects /> } />
       </Routes>
     </BrowserRouter>
   )
