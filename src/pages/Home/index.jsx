@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Presentation() {
+function Home() {
   return (
     <section>
       <nav>
@@ -14,4 +14,4 @@ function Presentation() {
   )
 }   
 
-export default Presentation;
+export default Home;
