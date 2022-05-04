@@ -17,7 +17,7 @@ function Home() {
       <NavBar/>
       <header><b>Hi, I'm Álvaro!</b></header>
       <aside>
-        <img src={photo} alt='Foto de Álvaro no computador' />
+        <img src={photo} alt='Álvaro in computer' />
       </aside>
       <article>
         <p>

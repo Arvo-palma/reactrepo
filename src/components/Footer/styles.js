@@ -10,7 +10,7 @@ flex-direction: column;
 
   footer {
     margin: 2%;
-    font-size: 5vw;
+    font-size: 4vw;
   }
 `;
 

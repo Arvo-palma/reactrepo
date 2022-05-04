@@ -12,32 +12,20 @@ flex-direction: column;
     margin-top: 15%;
     font-size: 7vw;
     margin-left: 1%;
+    margin-bottom: 4%;
   }
 
   h2 {
     margin: 2%;
-    margin-bottom: 5%;
     font-size: 7vw;
   }
   
-  article {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    align-items: right;
+  img {
+    width: 100%;
   }
 
-  article p {
-    margin: 2%;
-    font-size: 7vw;
-    text-align: center;
-  }
-
-  .duration {
-    font-size: 6vw;
-  }
-
-  .contacts-parafgraph {
-    font-size: 6vw;
+  #recipesapp-img {
+    height: 70vh;
   }
 `;
 
