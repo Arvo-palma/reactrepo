@@ -10,7 +10,7 @@ function NavBar() {
     <NavBarStyled id="navbar">
       <div>
         <Link
-          className='home-button'
+          className='nav_option'
           data-testid="home__element-navbar-link"
           to={ '/' }
         >
@@ -19,7 +19,7 @@ function NavBar() {
       </div>
       <div>
         <Link
-          className='about-button'
+          className='nav_option'
           data-testid="about__element-navbar-link"
           to={ '/about' }
         >
@@ -28,7 +28,7 @@ function NavBar() {
       </div>
       <div>
         <Link
-          className='skills-button'
+          className='nav_option'
           data-testid="skills__element-navbar-link"
           to={ '/skills' }
         >
@@ -37,7 +37,7 @@ function NavBar() {
       </div>
       <div>
         <Link
-          className='projects-button'
+          className='nav_option'
           data-testid="projects__element-navbar-link"
           to={ '/projects' }
         >
