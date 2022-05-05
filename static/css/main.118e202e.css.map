@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.118e202e.css","mappings":"6EAEA,EACE,qBAAsB,CACtB,QAAS,CACT,SACF","sources":["Global.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap') ;\n\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n"],"names":[],"sourceRoot":""}

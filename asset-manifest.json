@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.118e202e.css",
+    "main.js": "/static/js/main.5e03b44a.js",
+    "static/media/LinkedInPhoto.jpeg": "/static/media/LinkedInPhoto.95e3b1df9850a58553ee.jpeg",
+    "static/media/MachineLearning.png": "/static/media/MachineLearning.a9e3bf4d524c7f23e7b1.png",
+    "static/media/Algorythms.png": "/static/media/Algorythms.276d02ac0197fc3cead5.png",
+    "static/media/deliveryApp.png": "/static/media/deliveryApp.61522dd1f83f72c86aac.png",
+    "static/media/RecipesApp.png": "/static/media/RecipesApp.c769c018ab36a3e3adb5.png",
+    "static/media/RestaurantSystem.png": "/static/media/RestaurantSystem.4e7769cdeb824b0e38a0.png",
+    "index.html": "/index.html",
+    "main.118e202e.css.map": "/static/css/main.118e202e.css.map",
+    "main.5e03b44a.js.map": "/static/js/main.5e03b44a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.118e202e.css",
+    "static/js/main.5e03b44a.js"
+  ]
+}
