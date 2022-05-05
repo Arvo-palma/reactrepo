@@ -14,71 +14,77 @@ function Projects() {
       <NavBar/>
       <header><h1>Skills</h1></header>
       <article>
+        <div className='computer-skills-div'>
         <h2>Computer Skills</h2>
         <ol>
           <li>
-            - Git, GitHub and Agile methodologies;
+            Git, GitHub and Agile methodologies;
           </li>
           <li>
-            - HTML, CSS, Javascript and DOM;
+            HTML, CSS, Javascript and DOM;
           </li>
           <li>
-            - React.js, React Redux, React Hooks and Context API;
+            React.js, React Redux, React Hooks and Context API;
           </li>
           <li>
-            - MySQL and MongoDB;
+            MySQL and MongoDB;
           </li>
           <li>
-            - Node.js, Sockets and Sequelize;
+            Node.js, Sockets and Sequelize;
           </li>
           <li>
-            - Unit tests, async tests and integration tests with Jest, Chai and Sinon;
+            Unit tests, async tests and integration tests with Jest, Chai and Sinon;
           </li>
           <li>
-            - Achitecture SOLID, REST and Deploy;
+            Achitecture SOLID, REST and Deploy;
           </li>
           <li>
-            - Python for data scraping and algorythms;
+            Python for data scraping and algorythms;
           </li>
         </ol>
+        </div>
         <br/>
+        <div className='soft-skills-div'>
         <h2>Soft Skills</h2>
         <ol>
           <li>
-            - Teamwork;
+            Teamwork;
           </li>
           <li>
-            - Leadership;
+            Leadership;
           </li>
           <li>
-            - Problem solving;
+            Problem solving;
           </li>
           <li>
-            - Adaptability;
+            Adaptability;
           </li>
           <li>
-            - Fast learning;
+            Fast learning;
           </li>
           <li>
-            - Active listening;
+            Active listening;
           </li>
           <li>
-            - Assertive communication;
+            Assertive communication;
           </li>
         </ol>
+        </div>
         <br/>
+        <div className='languages-div'>
         <h2>Languages</h2>
-        <ol>
+        <ul>
           <li>
-            - Português (nativo);
+            Português (nativo);
           </li>
           <li>
-            - English (advanced);
+            English (advanced);
           </li>
           <li>
-            - Español (básico);
+            Español (básico);
           </li>
-        </ol>
+        </ul>
+        </div>
         <br/>
       </article>
       <Footer/>

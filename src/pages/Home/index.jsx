@@ -15,6 +15,7 @@ function Home() {
   return (
     <HomePageStyled id="homepage">
       <NavBar/>
+      <div className='hello'>
       <header><b>Hi, I'm Álvaro!</b></header>
       <aside>
         <img src={photo} alt='Álvaro in computer' />
@@ -30,11 +31,16 @@ function Home() {
         <p className='contacts-paragraph'>
           <b>Contacts:</b>
           <br/>
-            contact.alvaro.palma@gmail.com
+            <a href='mailto:contact.alvaro.palma@gmail.com'>
+              contact.alvaro.palma@gmail.com
+            </a><br/>
+            <a href='https://www.linkedin.com/in/alvaro-palma/'>
             linkedin.com/in/alvaro-palma/
-            +55 (45) 99999-0001
+            </a><br/>
+            +55 (45) 99999-0001<br/>
         </p>
       </article>
+      </div>
       <Footer/>
     </HomePageStyled>
   )

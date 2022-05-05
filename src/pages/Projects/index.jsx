@@ -19,35 +19,49 @@ function Projects() {
   return (
     <ProjectsPageStyled id="projectpage">
       <NavBar/>
-      <header><h1>Some projects I developed</h1></header>
+      <header><h1>Some projects I developed:</h1></header>
       <article>
-        <h2>Recipes App</h2>
-        <img id='recipesapp-img' src={ recipesApp } alt='Login page from recipes app' />
-        <p>
-          This is a mostly frontend project. A app who uses <a href="https://www.themealdb.com/api.php"> Meals API</a> and <a href="https://www.thecocktaildb.com/api.php ">Cocktail API</a> to combine recipe options for the user.<br/>
-          Based in React.js, CSS modules, React Hooks and ContextAPI.
-        </p>
+        <div className='jsprojects-div'>
+          <div className='project-div'>
+            <h2>Recipes App</h2>
+            <img id='recipesapp-img' src={ recipesApp } alt='Login page from recipes app' />
+            <p>
+              This is a mostly frontend project. A app who uses <a href="https://www.themealdb.com/api.php"> Meals API</a> and <a href="https://www.thecocktaildb.com/api.php ">Cocktail API</a> to combine recipe options for the user.<br/>
+              Based in React.js, CSS modules, React Hooks and ContextAPI.
+            </p>
+          </div>
+          <br/>
+          <div className='project-div'>
+            <h2>Delivery System</h2>
+            <div className='delivery-imgs'>
+            <img id='orders-img' src={ deliverySystem } alt='Orders page from delivery app' />
+            <img id='schema-img'src={ deliveryApp } alt='Schema from delivery app' />
+            </div>
+            <p>
+              This is a full stack project that applies a complete delivery system with dynamic update.<br/>
+              In this project I learned the simple styled-components for CSS and applied React.js and Node.js tools to build. It combines routes, session storage, MySQL with Sequelize, MD5 &amp; JWT validations, MSC architecture and Socket.io.
+            </p>
+          </div>
+        </div>
         <br/>
-        <h2>Delivery System</h2>
-        <img src={ deliverySystem } alt='Orders page from delivery app' />
-        <img src={ deliveryApp } alt='Schema from delivery app' />
-        <p>
-          This is a full stack project that applies a complete delivery system with dynamic update.<br/>
-          In this project I learned the simple styled-components for CSS and applied React.js and Node.js tools to build. It combines routes, session storage, MySQL with Sequelize, MD5 &amp; JWT validations, MSC architecture and Socket.io.
-        </p>
-        <br/>
-        <h2>Industrial equipment modeling with machine learning</h2>
-        <img src={ machineLearning } alt='Orange data mining page' />
-        <p>
-          This was my chemical engineering graduation project.<br/>
-          I used python with the numpy and bioSTEAM libraries to simulate an extractive distillation column. With the data from the simulated equipment, I trained the linear regression and random forest algorithms to mathematically model this equipment.
-        </p>
-        <br/>
-        <h2>Algorythms with python</h2>
-        <img src={ algorythms } alt='Code of an algorythm to data scraping' />
-        <p>
-          I also used python to develop small projects with file manipulation, data scraping and analysis algorithms.
-        </p>
+        <div className='pyprojects-div'>
+          <div className='project-div'>
+            <h2>Industrial equipment modeling with machine learning</h2>
+            <img id='MLimage' src={ machineLearning } alt='Orange data mining page' />
+            <p>
+              This was my chemical engineering graduation project.<br/>
+              I used python with the numpy and bioSTEAM libraries to simulate an extractive distillation column. With the data from the simulated equipment, I trained the linear regression and random forest algorithms to mathematically model this equipment.
+            </p>
+          </div>
+          <br/>
+          <div className='project-div'>
+            <h2>Algorythms with python</h2>
+            <img id='algorythmimg' src={ algorythms } alt='Code of an algorythm to data scraping' />
+            <p>
+              I also used python to develop small projects with file manipulation, data scraping and analysis algorithms.
+            </p>
+          </div>
+        </div>
         <br/>
       </article>
       <Footer />

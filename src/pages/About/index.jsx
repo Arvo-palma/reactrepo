@@ -17,6 +17,7 @@ function About() {
         <h2>Journey</h2>
         <p>
         Born July 9, 1991. I have always enjoyed challenges and doing things that positively impact the people around me. I experienced studies in the area of law school, business administration and environmental management.<br/>
+        <br/>
         While I was always looking for something that would have more impact on the lives of the people around me, I ended up majoring in chemical engineering. And it was in this area that I got to know programming for the first time. <br/>
         </p>
         <br/>

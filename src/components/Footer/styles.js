@@ -12,6 +12,12 @@ flex-direction: column;
     margin: 2%;
     font-size: 4vw;
   }
+
+  @media screen and (min-width: 675px) {
+    footer {
+      margin: 1%;
+      font-size: 1.5vw;
+    }
 `;
 
 export default FooterStyled;

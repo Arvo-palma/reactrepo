@@ -27,6 +27,110 @@ flex-direction: column;
   #recipesapp-img {
     height: 70vh;
   }
+
+  article p {
+    text-align: justified;
+    margin: 1%;
+    font-size: 5vw;
+  }
+
+  @media screen and (min-width: 500px) and (max-width: 675px) {
+    header h1 {
+      font-size: 5vw;
+      margin-bottom: 3%;
+    }
+
+    img {
+      width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2 {
+      font-size: 6vw;
+    }
+
+    article p {
+      font-size: 4vw;
+      margin-bottom: 3%;
+    }
+  }
+
+  @media screen and (min-width: 675px) {
+    header h1 {
+      margin-top: 5%;
+      font-size: 2vw;
+      margin-left: 1%;
+      margin-bottom: 2%;
+    }
+  
+    article h2 {
+      margin: 1%;
+      font-size: 2vw;
+      text-align: center;
+    }
+
+    article {
+      margin-bottom: 2%;
+    }
+    
+    article img {
+      width: 48%;
+    }
+
+    #recipesapp-img {
+      width: 40%;
+    }
+
+    .delivery-imgs {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #orders-img {
+      width: 70%;
+      margin: auto;
+    }
+
+    #schema-img {
+      width: 70%;
+      margin: auto;
+    }
+
+    #MLimage {
+      width: 75%;
+    }
+
+    #algorythmimg {
+      width: 85%;
+    }
+  
+    #recipesapp-img {
+      height: 50vh;
+    }
+  
+    article p {
+      text-align: center;
+      margin: 1%;
+      font-size: 1.5vw;
+      margin-bottom: 3%;
+    }
+
+    .jsprojects-div {
+      display: flex;
+    }
+
+    .pyprojects-div {
+      display: flex;
+    }
+
+    .project-div {
+      width: 50%;
+      margin-left: 5%;
+      text-align: center;
+    }
+  }
 `;
 
 export default ProjectsPageStyled;

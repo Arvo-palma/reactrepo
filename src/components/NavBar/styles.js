@@ -23,6 +23,18 @@ const NavBarStyled = styled.nav`
     .nav_option {
       font-size: 4vw;
     }
+
+    @media screen and (min-width: 500px) {
+      .nav_option {
+        font-size: 3.5vw;
+      }  
+    }
+
+    @media screen and (min-width: 675px) {
+      .nav_option {
+        font-size: 1.5vw;
+      }  
+    }
 `;
 
 export default NavBarStyled;
